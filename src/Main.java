@@ -18,7 +18,8 @@ public class Main {
 		maLampe.eteindre();
 		System.out.println(maLampe.isEstAllumee());
 		System.out.println(maLampe.getPuissance());
-		
+		maLampe.allumer();
+		System.out.println(maLampe.isEstAllumee());
 
 	}
 
