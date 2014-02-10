@@ -20,6 +20,8 @@ public class Lampe {
 	 * Puissance par défaut
 	 */
 	private final static int PUISSANCE_DEFAUT = 50;
+	
+	private String couleur;
 
 	
 	/**
@@ -39,6 +41,7 @@ public class Lampe {
 		
 		this.puissance = puissance;
 		this.estAllumee = true;
+		this.couleur = "Blanc";
 	}
 	
 	/**
@@ -72,5 +75,12 @@ public class Lampe {
 		this.estAllumee= false;
 	}
 	
+	public void changerCouleur(String couleur){
+		this.couleur = couleur;
+	}
+
+	public String getCouleur() {
+		return this.couleur;
+	}
 	
 }

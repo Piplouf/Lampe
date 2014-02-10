@@ -20,6 +20,10 @@ public class Main {
 		System.out.println(maLampe.getPuissance());
 		maLampe.allumer();
 		System.out.println(maLampe.isEstAllumee());
+		System.out.println(maLampe.getCouleur());
+		maLampe.changerCouleur("Vert");
+		System.out.println(maLampe.getCouleur());
+		
 
 	}
 
